@@ -27,7 +27,8 @@ This is better than a normal `for` loop, because removing items in a normal loop
 
 ---
 ## 📂 Project Structure
-IteratorExample/
+```text
+Working-with-java-collections-framework/
 ├── src/
-│ └── IteratorExample.java
+│ └── Main.java
 └── README.md
