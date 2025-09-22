@@ -25,6 +25,7 @@ and then apply them with a generic counter (`CountElement`) to count and print n
 ---
 
 ## Project Structure
+```text
 src/
 └── main/
     └── java/
