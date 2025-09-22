@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        List<String> words = new ArrayList<>();
+        System.out.println("\n--- ArrayList with Iterator ---");
+        ArrayList<String> words = new ArrayList<>();
         words.add("apple");
         words.add("banana");
         words.add("grape");
@@ -60,5 +58,70 @@ public class Main {
             System.out.print(element + ", ");
         }
         System.out.println();
+
+        // LINKEDLIST with Iterator
+        System.out.println("\n--- LinkedList with Iterator ---");
+
+        LinkedList<String> fruits = new LinkedList<>();
+        fruits.add("mango");
+        fruits.add("pineapple");
+        fruits.add("strawberry");
+        fruits.add("papaya");
+
+        System.out.println("Original LinkedList: " + fruits);
+
+        Iterator<String> fruitIterator = fruits.iterator();
+        while (fruitIterator.hasNext()) {
+            String fruit = fruitIterator.next();
+            if (fruit.contains("p")) {   // remove fruits with 'p'
+                fruitIterator.remove();
+            }
+        }
+        System.out.println("After removing fruits with 'p': " + fruits);
+
+
+        // HASHSET with Iterator
+        System.out.println("\n--- HashSet with Iterator ---");
+
+        Set<Integer> numbersSet = new HashSet<>();
+        numbersSet.add(10);
+        numbersSet.add(20);
+        numbersSet.add(25);
+        numbersSet.add(30);
+        numbersSet.add(40);
+
+        System.out.println("Original Set: " + numbersSet);
+
+        Iterator<Integer> setIterator = numbersSet.iterator();
+        while (setIterator.hasNext()) {
+            int num = setIterator.next();
+            if (num % 20 == 0) {   // remove multiples of 20
+                setIterator.remove();
+            }
+        }
+        System.out.println("After removing multiples of 20: " + numbersSet);
+
+
+        // HASHMAP with Iterator
+        System.out.println("\n--- HashMap with Iterator ---");
+
+        Map<Integer, String> students = new HashMap<>();
+        students.put(1, "Alice");
+        students.put(2, "Bob");
+        students.put(3, "Charlie");
+        students.put(4, "Diana");
+
+        System.out.println("Original Map: " + students);
+
+// Iterate over entries
+        Iterator<Map.Entry<Integer, String>> mapIterator = students.entrySet().iterator();
+        while (mapIterator.hasNext()) {
+            Map.Entry<Integer, String> entry = mapIterator.next();
+            if (entry.getKey() % 2 == 0) {   // remove students with even IDs
+                mapIterator.remove();
+            }
+        }
+        System.out.println("After removing even IDs: " + students);
+
     }
 }
