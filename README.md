@@ -1,7 +1,7 @@
 # FlexiSaf Intermediate Tasks
 
 This repository contains solutions to **Java intermediate-level programming tasks**.  
-The aim is to practice core Java concepts such as **Generics**, **Collections Framework**, and more advanced topics as they are added.
+The aim is to practice core Java concepts such as **Generics**, **Collections Framework**, **Annotations**, and more advanced topics as they are added.
 
 ---
 
@@ -19,6 +19,8 @@ The aim is to practice core Java concepts such as **Generics**, **Collections Fr
 
 2. [**Working with Java Collections Framework**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Working-with-the-Java-collections-framework)
     - Explores Lists, Sets, Maps, and Iterators.
+3. [**Working with Annotations**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Using-annotations)
+    - Covers how to define custom annotations, apply them to classes and methods, and access annotation data using Java Reflection.
 
 ---
 ## Goals
@@ -33,6 +35,7 @@ This repository will be updated with more tasks over time as new concepts are co
 ## Project Structure
 ```text
 FlexiSaf-intermediate-tasks/
-├── WorkingWithGenerics.java
-├── WorkingWithCollectionsFramework.java
+├── Working-with-generics.java
+├── Working-with-collections-framework.java
+├── Using-annotations.java
 └── README.md
