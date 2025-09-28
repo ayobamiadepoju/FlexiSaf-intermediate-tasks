@@ -11,28 +11,28 @@ This project demonstrates how to use the **Iterator** and **ListIterator** inter
 
 ## Features
 
-### 🔹 Working with ArrayList
+### Working with ArrayList
 - Add words to a list.
 - Remove words shorter than **5 letters** using an `Iterator`.
 - Remove character **'a'** from words.
 - Modify elements with `ListIterator.set()`.
 - Traverse list **forwards** and **backwards**.
 
-### 🔹 Working with LinkedList
+### Working with LinkedList
 - Add fruit names.
 - Use an `Iterator` to remove items containing **"p"**.
 
-### 🔹 Working with HashSet
+### Working with HashSet
 - Store integer values.
 - Remove elements that are **multiples of 20** using an `Iterator`.
 
-### 🔹 Working with HashMap
+### Working with HashMap
 - Store student **ID–name pairs**.
 - Iterate through entries with an `Iterator`.
 - Remove entries with **even IDs**.
 
 ---
-## 📂 Project Structure
+## Project Structure
 ```text
 Working-with-java-collections-framework/
 ├── src/
