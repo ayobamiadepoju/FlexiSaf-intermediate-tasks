@@ -1,4 +1,5 @@
-# Java Custom Annotation Example
+# Java Custom Annotation Example 
+# Task 3
 
 This project demonstrates how to **create and use a custom annotation** in Java and how to **access annotation details at runtime** using reflection.  
 The example includes class-level and method-level annotations and prints all applied annotations dynamically.
@@ -19,11 +20,7 @@ The example includes class-level and method-level annotations and prints all app
 
 ```text
 ├── src/
-│   └── com/
-│       └── example/
-│           └── annotations/
-│               ├── EnhancementRequest.java
-│               ├── Main.java
-│               └── RequestImpl.java
-├── README.md
-└── build/
+│   ├── EnhancementRequest.java
+│   ├── Main.java
+│   └── RequestImpl.java
+└── README.md

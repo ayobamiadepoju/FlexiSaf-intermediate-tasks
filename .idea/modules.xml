@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FlexiSaf-intermediate-tasks.iml" filepath="$PROJECT_DIR$/.idea/FlexiSaf-intermediate-tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Using-annotations/Using-annotations.iml" filepath="$PROJECT_DIR$/Using-annotations/Using-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working-with-Generics/Working-with-Generics.iml" filepath="$PROJECT_DIR$/Working-with-Generics/Working-with-Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working-with-dates-and-time/Working-with-dates-and-time.iml" filepath="$PROJECT_DIR$/Working-with-dates-and-time/Working-with-dates-and-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working-with-the-Java-collections-framework/Working-with-the-Java-collections-framework.iml" filepath="$PROJECT_DIR$/Working-with-the-Java-collections-framework/Working-with-the-Java-collections-framework.iml" />
+    </modules>
+  </component>
+</project>

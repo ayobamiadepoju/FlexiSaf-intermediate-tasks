@@ -1,4 +1,5 @@
-# Iterator Example – Java
+# Iterator Example – Java 
+# Task 2
 
 This is a simple **Java project** that shows how to use the **`Iterator` interface** to loop through a list of words and perform various actions.
 This project demonstrates how to use the **Iterator** and **ListIterator** interfaces in Java to traverse and safely modify different collection types:

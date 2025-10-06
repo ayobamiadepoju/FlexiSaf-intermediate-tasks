@@ -16,11 +16,12 @@ The aim is to practice core Java concepts such as **Generics**, **Collections Fr
 ## Current Tasks
 1. [**Working with Generics**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Working-with-Generics)
     - Demonstrates how to use Java Generics to write type-safe and reusable code.
-
 2. [**Working with Java Collections Framework**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Working-with-the-Java-collections-framework)
     - Explores Lists, Sets, Maps, and Iterators.
 3. [**Working with Annotations**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Using-annotations)
     - Covers how to define custom annotations, apply them to classes and methods, and access annotation data using Java Reflection.
+3. [**Working with dates and time**](https://github.com/ayobamiadepoju/FlexiSaf-intermediate-tasks/tree/main/Working-with-dates-and-time)
+   - demonstrates advanced date and time manipulation using Java's java.time API.
 
 ---
 ## Goals
@@ -38,4 +39,5 @@ FlexiSaf-intermediate-tasks/
 ├── Working-with-generics.java
 ├── Working-with-collections-framework.java
 ├── Using-annotations.java
+├── Working-with-dates-and-time 
 └── README.md

@@ -26,13 +26,13 @@ and then apply them with a generic counter (`CountElement`) to count and print n
 
 ## Project Structure
 ```text
-src/
-└── main/
-    └── java/
-        └── checkers/
-            ├── Check.java
-            ├── CheckOdd.java
-            ├── CheckPrime.java
-            ├── CheckPalindrome.java
-        ├── CountElement.java
-        └── Main.java
+├── src/
+│     ├── checkers/
+│     │    ├── Check.java
+│     │    ├── CheckOdd.java
+│     │    ├── CheckPrime.java
+│     │    ├── CheckPalindrome.java
+│     ├── CountElement.java
+│     ├── Main.java
+└── README.md
+
