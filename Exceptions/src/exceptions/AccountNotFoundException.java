@@ -2,7 +2,7 @@ package exceptions;
 
 public class AccountNotFoundException extends Exception{
 
-    public AccountNotFoundException(String message) {
-        super("Account Not Found!");
+    public AccountNotFoundException(String accountNumber) {
+        super("Account Not Found: " + accountNumber);
     }
 }
